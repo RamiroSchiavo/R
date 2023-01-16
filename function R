@@ -1,0 +1,12 @@
+# Datos
+x <- c(1, 2, 3, 4, 5)
+y <- c(200, 300, 600, 700, 500)
+
+# Vectores
+plot(x, y, type = "l")
+
+# Data frame
+# plot(data.frame(x, y), type = "l") # Equivalente
+
+# Fórmula
+# plot(y ~ x, type = "l") # Equivalente
